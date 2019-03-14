@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+  <title> LYNDA </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--=================== Fonts ==================-->
+   
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">   
+  <!--===================bootstrap ===============--> 
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
+    
+    
+    
+  <!--=================== w3.css ==========================================-->   
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> 
+
+  <!--=================== css file ==================-->
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/lynda.css" type="text/css">
+     
+   
+   
+</head>
+    
+    <!--=================== start page ==============-->
+<body  data-spy="scroll" data-target="#navbar " data-offset="50px" class="body">
+
+<!----------------------------navbar-----------------------------------------> 
+
+ 
+ <nav class="navbar navbar-fixed-top navbar-inverse" id="navbar">
+  <div class="container">
+      
+    <div class="navbar-header">
+    <button id="openNav" class="w3-button w3-xlarge btn-slider" onclick="w3_open()">  <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>    &#9776;</button>
+          
+        <a class="navbar-brand" href="#myPage" >Online Courses</a>
+        
+        <form class="navbar-form  form-1 hidden-sm hidden-xs">
+          <div class="input-group"> 
+            <input type="text" class="form-control " placeholder="Search for the software or skills you want to learn">
+            <div class="input-group-btn">
+              <button class="btn btn-default" type="submit">
+                <i class="glyphicon glyphicon-search" style=""></i>
+              </button>
+
+            </div>
+          </div>
+    </form>
+
+    </div>
+      
+      <!-- btn search -->
+        <div class="search container-fluid hidden-lg hidden-md"><input type="text"  placeholder="Search for the software or skills you want to learn">
+        </div>      
+      <!--icon-search-->
+    <button type="button" id="icon-search" class="hidden-lg hidden-md"><i class="glyphicon glyphicon-search" style=""></i></button> 
+      
+    <div class="collapse navbar-collapse" id="myNavbar">
+      
+      <ul class="nav navbar-nav navbar-right btn-sign">
+        <li class="btn-sign-1"><a data-target="nav" href="#HOME" class="">sign in</a></li>
+        <li class=" hidden-sm hidden-xs"><a data-target="nav" href="#BAND" id="Band"><button type="button" class="btn btn-primary">sign up </button></a></li>
+      </ul>
+        
+      <ul class="nav navbar-nav  dropdown-1">  
+        <li class="dropdown">
+          <a class="dropdown-toggle color-fff" data-toggle="dropdown" href="#" >LIBRARY
+          <span class="caret"></span></a>
+          <ul class="dropdown-menu menu-1">
+            <li><a data-target="nav" href="#team" id="Team">OUR TEAM</a></li>
+            <li><a href="#">Extras</a></li>
+            <li><a href="#">Media</a></li> 
+          </ul>
+        </li>
+       </ul>  
+       
+       <!-- nan2-->
+        <div class="nav2">
+          <div class="container">   
+           <ul class="nav navbar-nav ">
+               <li><a data-target="nav" href="#team" id="Team">start a free trial</a></li>
+                <li><a href="#">reactivate</a></li>
+                
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+               <li class="solutions"><a>solutions for :</a></li>
+               <li><a data-target="nav" href="#team" id="Team">business</a></li>
+                <li><a href="#">higher education</a></li>
+                <li><a href="#">covernment</a></li> 
+                <li><a href="#">buy for my team</a></li> 
+            </ul>
+           </div>       
+        </div>
+        
+    </div>
+      
+  </div>
+</nav>
+ 
+     <button id="go-to-top" class="btn-scroll"><b><i class="fa fa-angle-up"></i></b></button>
+
+    
+         <!--================== left-slider ================--> 
+    <div class="left-slider">
+    
+<div class="w3-sidebar w3-bar-block w3-card w3-animate-left" style="display:none" id="mySidebar">
+  <button class="w3-bar-item w3-button w3-large"
+  onclick="w3_close()">Close &times;</button>
+   
+    <div class="">
+        <ul class="ul-slide">
+            <li><a>LIBRARY<i class="fa fa-angle-right"></a></i></li>
+            <li><a>sign in<i class="fa fa-angle-right"></a></i></li>
+            <li><a>start afree trial<i class="fa fa-angle-right"></a></i></li>
+            <li><a>reactivate<i class="fa fa-angle-right"></a></i></li>
+            <li class="solutions1" style="background:#000"><a>solutions for :</a></li>
+            <li><a> business<i class="fa fa-angle-right"></a></i></li>
+            <li><a>higher education <i class="fa fa-angle-right"></a></i></li>
+            <li><a>covernment<i class="fa fa-angle-right"></a></i></li>
+            <li><a>buy for my team<i class="fa fa-angle-right"></a></i></li>
+           
+         </ul>
+            
+    </div>
+</div>
+
+
+
+
+ 
+ 
+
+    
+ </div>   
+    
+         <!--==================main section ================-->  
+    
+<div class="section1">
+   <div class="overly-bg">
+        <div>
+            <h1><b>Learn a new skill online, on your time</b></h1>
+            <p>6,243 courses in Business, Technology and Creative Skills taught by industry experts.</p>
+            <p class="p2">Try Lynda.com free for 30 days.
+              Start My Free Trial
+            </p>
+            <button type="button" class="btn-main1">start my free trial</button>
+        </div>
+   </div>
+</div>    
+
+
+         <!--================== section 2================-->  
+<div class="section2-bg">
+    <div class="container section2 change-width">
+        
+        <div class="row row-img">
+            
+           <div class="col-md-4 col-sm-4 col-xs-12">
+               
+             <div class="main-div-bg">  
+               <div class="back-bg bg9"></div>  
+                 
+               <div class="tx-bg">
+                   <div class="tx">  
+                    <h4>software development</h4>
+                    <p>over 600 courses</p>
+                    <a href="#" class="overly-icon"><i class="fa fa-play"></i><span>preview subject</span></a>      
+                   </div>       
+               </div>
+                 
+            </div>     
+           </div>
+            <div class="col-md-4 col-sm-4 col-xs-12">
+              <div class="main-div-bg1">  
+                <div class="back-bg bg8"></div>   
+                    <div class="tx-bg"> 
+                        <div class="tx">                   
+                            <h4>design</h4>
+                            <p>over 400 courses</p>
+                            <div class="overly-icon"><a href="#"><i class="fa fa-play"></i><span>preview subject</span></a></div>                 
+                        </div>
+                    </div>
+              </div>    
+           </div>
+            <div class="col-md-4 col-sm-4 col-xs-12">
+              <div class="main-div-bg1">  
+                <div class="back-bg bg10"></div>   
+                    <div class="tx-bg"> 
+                        <div class="tx">                   
+                            <h4>business</h4> 
+                            <p>over 1200 courses</p>
+                            <div class="overly-icon"><a href="#"><i class="fa fa-play"></i><span>preview subject</span></a></div>                 
+                        </div>
+                    </div>
+              </div>    
+           </div>
+            <div class="col-md-4 col-sm-4 col-xs-12">
+              <div class="main-div-bg1">  
+                <div class="back-bg bg11"></div>   
+                    <div class="tx-bg"> 
+                        <div class="tx">                   
+                            <h4>web development</h4>
+                            <p>over 800 courses</p>
+                            <div class="overly-icon"><a href="#"><i class="fa fa-play"></i><span>preview subject</span></a></div>                 
+                        </div>
+                    </div>
+              </div>    
+           </div>
+            <div class="col-md-4 col-sm-4 col-xs-12">
+              <div class="main-div-bg1">  
+                <div class="back-bg bg12"></div>   
+                    <div class="tx-bg"> 
+                        <div class="tx">                   
+                            <h4>software development</h4> 
+                            <p>over 900 courses</p>
+                            <div class="overly-icon"><a href="#"><i class="fa fa-play"></i><span>preview subject</span></a></div>                 
+                        </div>
+                    </div>
+              </div>    
+           </div>
+            
+            
+            
+            
+        </div>
+    
+    <!--============== icons =============-->
+    
+        <div class="row text-center section2-icon">
+             <div class="col-md-4 col-sm-4 col-xs-12">
+                 <i class="fa fa-pie-chart"></i>
+                 <h3><b>Unlimited Access</b></h3>
+                 <p>Choose what you'd like to learn from our extensive subscription library.</p>
+             </div> 
+             <div class="col-md-4 col-sm-4 col-xs-12">
+                 <i class="fa  fa-window-restore"></i>
+                 <h3><b>Expert Teachers</b></h3>
+                 <p>Expert TeachersLearn from industry experts who are passionate about teaching.</p>
+             </div>  
+             <div class="col-md-4 col-sm-4 col-xs-12">
+                 <i class="fa fa-desktop"></i><i class="fa fa-mobile"  style="padding-left:10px;font-size:40px"></i>
+                 <h3><b>Learn Anywhere</b></h3>
+                 <p>Switch between your computer, tablet, or mobile device.</p>
+             </div> 
+              <button type="button" class="btn-main btn-sec1">start my free trial</button>
+        </div>
+    </div> 
+</div>    
+    
+    
+ <!--============== browse =============--> 
+    
+<div class="container browse change-width">
+    <div class="row">
+        
+      
+      
+         <div class="col-md-3  col-sm-3 col-xs-12 ">
+               <div class="main">         
+                    <div class="bg5"></div>               
+                    <div class="overly">
+                        <div>
+                            <a href="#" class="overly-icon"><i  class="fa fa-play"></i><br><span>preview subject</span></a>
+                        </div>
+                    </div>
+                </div>   
+            <div class="h4">
+                <h4><b>Learning css</b></h4>
+                <p>David Gassner</p>
+                <p class="p2">4h . 18m . 735,859 Views</p>
+           </div>
+       </div>
+         <div class="col-md-3  col-sm-3   col-xs-12">
+            <div class="main">         
+                <div class="bg4"></div>               
+                <div class="overly">
+                    <div>
+                        <a href="#" class="overly-icon"><i  class="fa fa-play"></i><br><span>preview subject</span></a>
+                    </div>
+                </div>
+            </div>     
+            <div class="h4">
+                <h4><b>Learning html </b></h4>
+                <p>David Gassner</p>
+                <p class="p2">4h . 18m . 735,859 Views</p>
+           </div>
+       </div> <div class="col-md-3  col-sm-3  col-xs-12 ">
+             <div class="main">         
+                <div class="bg7"></div>               
+                <div class="overly">
+                    <div>
+                        <a href="#" class="overly-icon"><i  class="fa fa-play"></i><br><span>preview subject</span></a>
+                    </div>
+                </div>
+            </div>   
+            <div class="h4">
+                <h4><b>Visual Basic  </b></h4>
+                <p>David Gassner</p>
+                <p class="p2">4h . 18m . 735,859 Views</p>
+           </div>
+       </div>
+         <div class="col-md-3  col-sm-3 col-xs-12 ">
+              <div class="main">         
+                <div class="bg6"></div>               
+                <div class="overly">
+                    <div>
+                        <a href="#" class="overly-icon"><i  class="fa fa-play"></i><br><span>preview subject</span></a>
+                    </div>
+                </div>
+            </div>    
+            <div class="h4">
+                <h4><b>Learning Java</b></h4>
+                <p>David Gassner</p>
+                <p class="p2">4h . 18m . 735,859 Views</p>
+           </div>
+       </div>
+        
+       <div class="button col-md-12 col-sm-12 text-center">
+             <button type="button" class="btn-main">start my free trial</button>
+            <button type="button" class="btn-main btn2">start my free trial</button>
+       </div>    
+    </div>
+</div>     
+    
+ <!--==============Courses=============-->  
+    
+<div class="courses ">
+    <div class="container  text-center change-width">
+        <div class="h2"><h2>Stay Sharp. Get ahead with Learning Paths.</h2></div>
+        <div class="row">
+            
+          
+          
+             <div class="col-md-3 col-sm-3 col-xs-12">
+              <div class="main">  
+                   <div class="bg bg14"></div>
+                   <div class="overly">
+                       <div><a href="#">
+                           <h4 class="">Become a Front-End Web Developer</h4>
+                           <p class="p">Learning Path • 40 hours</p></a>
+                       </div>
+                   </div>
+              </div> 
+            </div>
+            <div class="col-md-3 col-sm-3 col-xs-12">
+              <div class="main">  
+                   <div class="bg bg11"></div>
+                   <div class="overly">
+                       <div><a href="#">
+                           <h4 class="">Become a Digital Illustrator </h4>
+                           <p class="p">Learning Path • 36 hours</p></a>
+                       </div>
+                   </div>
+              </div> 
+            </div>
+              <div class="col-md-3 col-sm-3 col-xs-12">
+              <div class="main">  
+                   <div class="bg bg9"></div>
+                   <div class="overly">
+                       <div><a href="#">
+                           <h4 class="">become a digital marketer</h4>
+                           <p class="p">learning path . 23 hours</p></a>
+                       </div>
+                   </div>
+              </div> 
+           </div>
+             <div class="col-md-3 col-sm-3 col-xs-12">
+              <div class="main">  
+                   <div class="bg bg10"></div>
+                   <div class="overly">
+                       <div><a href="#">
+                           <h4 class="">Become a Front-End Web Developer</h4>
+                           <p class="p">Learning Path • 40 hours</p></a>
+                       </div>
+                   </div>
+              </div> 
+            </div>
+            <div class="col-md-3 col-sm-3 col-xs-12">
+              <div class="main">  
+                   <div class="bg bg16"></div>
+                   <div class="overly">
+                       <div><a href="#">
+                           <h4 class="">Become a Digital Illustrator </h4>
+                           <p class="p">Learning Path • 36 hours</p></a>
+                       </div>
+                   </div>
+              </div> 
+            </div>
+            <div class="col-md-3 col-sm-3 col-xs-12">
+              <div class="main">  
+                   <div class="bg bg15"></div>
+                   <div class="overly">
+                       <div><a href="#">
+                           <h4 class="">Become a Graphic Designer</h4>
+                           <p class="p">Learning Path • 48 hours</p></a>
+                       </div>
+                   </div>
+              </div> 
+            </div>
+           <div class="col-md-3 col-sm-3 col-xs-12">
+              <div class="main">  
+                   <div class="bg bg14"></div>
+                   <div class="overly">
+                       <div><a href="#">
+                           <h4 class="">become a digital marketer</h4>
+                           <p class="p">learning path . 23 hours</p></a>
+                       </div>
+                   </div>
+              </div> 
+           </div>
+            <div class="col-md-3 col-sm-3 col-xs-12">
+              <div class="main">  
+                   <div class="bg bg12"></div>
+                   <div class="overly">
+                       <div><a href="#">
+                           <h4 class="">Become a Graphic Designer</h4>
+                           <p class="p">Learning Path • 48 hours</p></a>
+                       </div>
+                   </div>
+              </div> 
+            </div>
+            
+        </div>
+    </div> 
+</div>    
+     
+ 
+    
+    
+ <!--============== slider =============-->
+    <div id="myCarousel" class="carousel slide slider container change-width" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner row" role="listbox">
+      <div class="item active ">
+          <div class="item1">
+          <h2 class="col-md-offset-5 col-sm-offset-6 col-xs-offset-1"><q>I learned most of my programming skills and database management skills through self-study and the material available on Lynda.com.</q><br><span>–Jules, Database Manager</span></h2></div>
+      </div>
+      <div class="item">
+          <div class="item2">
+          <h2 class="col-md-offset-5 col-sm-offset-6 col-xs-offset-1"><q>Ben Long is the best, 90% of what I know about photography I've learned from watching his videos on Lynda.com.</q><br><span>–Paul, Photography Director</span></h2></div>
+      </div>
+      <div class="item">
+          <div class="item3">
+           <h2 class="col-md-offset-5 col-sm-offset-6 col-xs-offset-1"><q>I've been out of college for about two years, Lynda.com has changed my outlook on my career. Taking the foundational courses in marketing has helped me launch my career.</q><br><span>–Jenny, Associate Marketing</span></h2></div>
+       </div>
+
+     
+    </div>
+
+   
+</div>
+
+    
+ <!--============== images=============-->
+<div class="images">  
+    <div class="container text-center">
+         <div class="">
+            <h2>Need to train your team?</h2>
+            <p>We offer flexible, cost-effective group memberships for<br> your business, school, or government organization.<a href="#"> Contact us to learn more.</a></p>
+        </div>
+        <div class="row">
+        
+           
+            <div class="col-md-1 col-sm-4 col-xs-3">
+                <img src="images/adobe.png">   
+           </div>
+            <div class="col-md-1 col-sm-4 col-xs-3 ">
+                <img src="images/nbc.png">   
+           </div>
+             
+            <div class="col-md-1 col-sm-4 col-xs-3">
+                <img src="images/usge.png">   
+           </div>
+            
+            <div class="col-md-1 col-sm-4 col-xs-3">
+                <img src="images/usc.png">   
+           </div>
+            <div class="col-md-1  col-sm-4 col-xs-3">
+                <img src="images/nbc.png">   
+           </div>
+            <div class="col-md-1  col-sm-4 col-xs-3">
+                <img src="images/fullsail.png">   
+           </div>
+            
+           
+           
+        </div>
+    </div>
+</div>    
+ 
+    
+    
+  
+<!--============== articale (limitless) =============-->    
+    
+<div class="container articale change-width">
+    <div class="row">
+       <div class="col-md-6 col-sm-6 col-xs- ">
+           <div class="div-tx">
+               <h4><b>Limitless learning,<br>limitless possibilities</b></h4>
+               <p>Learning can happen anywhere with our apps on your computer, mobile device, and TV, featuring enhanced navigation and faster streaming for anytime learning.</p>
+               <button type="button" class="btn-main">start my free trial</button>
+           </div>
+       </div>
+       <div class="col-md-6 col-sm-6">
+           <div class="div-img">
+               <img src="images/homepage-devices.jpg">
+           </div>
+       </div>
+    </div>
+</div>     
+    
+    
+ <!--============== Footer =============-->    
+    
+<div class="footer">
+    <div class="container change-width">
+        <div class="row">
+           <div class="col-md-2 col-sm-3 col-xs-6 ">
+                 <ul>
+                     <h3><b>About Us</b></h3>
+                     <li><a href="#">About Us</a></li>
+                     <li><a href="#">Careers</a></li>
+                     <li><a href="#">Press Center</a></li>
+                     <li><a href="#">Become an Instructor</a></li>
+                     <li><a href="#">Video2Brain</a></li>
+                     
+                 </ul>
+           </div>
+            <div class="col-md-2 col-sm-3 col-xs-6 ">
+                 <ul>
+                     <h3><b>Products</b></h3>
+                     <li><a href="#">Our Plans</a></li>
+                     <li><a href="#">Free Trial</a></li>
+                     <li><a href="#">Academic Solutions</a></li>
+                     <li><a href="#">Business Solutions</a></li>
+                     <li><a href="#">Government Solutions</a></li>
+                     
+                 </ul>
+           </div>
+            <div class="col-md-2 col-sm-3 col-xs-6 ">
+                 <ul>
+                     <h3><b>Support</b></h3>
+                     <li><a href="#">Support</a></li>
+                     <li><a href="#">Contact Us</a></li>
+                     <li><a href="#">System Requirements</a></li>
+                     <li><a href="#">Register Activation Key</a></li>
+                     <li><a href="#">Site feedback</a></li>
+                     
+                 </ul>
+           </div>
+            <div class="col-md-2 col-sm-3 col-xs-6 ">
+                 <ul>
+                     <h3><b>Apps</b></h3>
+                     <li><a href="#">iPhone & iPad</a></li>
+                     <li><a href="#">Android</a></li>
+                     <li><a href="#">Windows 8</a></li>
+                     <li><a href="#">Desktop App</a></li>
+                     <li><a href="#">Apple TV</a></li>
+                     
+                 </ul>
+           </div>
+            <div class="col-md-2 col-md-offset-1 col-sm-12 col-xs-12 connect">    
+                <ul>
+                     <h3><b>connect</b></h3>
+                     <li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                     <li class="google"><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                     <li class="facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                     <li class="linkedin"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                     <li class="pinterest"><a href="#"><i class="fa fa-pinterest-p"></i></a></li>
+
+                </ul>
+             </div>
+           
+    </div>
+   </div>  
+</div>  
+    
+<div class="last-part">
+     <div class="container change-width"> 
+        <div class="row"> 
+          <div class="col-md-12 col-sm-12 col-xs-12">
+            <center>
+                <ul>
+                    <li>© 2017 LinkedIn Corporation</li>
+                    <li><a href="#"> Site Map</a></li>
+                    <li><a href="#"> Privacy policy</a></li>
+                    <li><a href="#">Web Use Policy</a></li>
+                    <li><a href="#"> Cookie Policy</a></li>
+
+                </ul>
+             </center>       
+           </div> 
+       </div> 
+     </div>
+</div>    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+<!--
+<div class="container">
+    <div class="row">
+       <div class="col-md- col-sm- col-xs- ">
+
+       </div>
+    </div>
+</div> 
+-->
+    
+    
+
+
+    
+    
+    
+    
+     
+
+    
+    
+    
+ <!-- =================External JavaScripts===================== -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!--
+<script type="text/javascript">
+		var txt = '';
+		for (var i = 0, j = 0; i < 10; i++) {
+			txt += '.emo-'+((j*10)+i+1)+'{background-position: -'+(i*100)+'px -'+(j*100)+'px;}';
+			if (i == 9 && j != 4) {
+				i = 0;
+				j++;
+			}
+		}
+		document.getElementById('styles').innerHTML += txt;
+	</script>
+-->
+      <script src="js/lynda.js"></script> 
+    
+
+</body>
+</html>    

@@ -1,0 +1,1220 @@
+
+body{
+    margin: 0px !important;
+    padding: 0px !important;
+    height:auto;
+    text-transform: capitalize
+}
+
+.color-fff{
+        color: #FFFFFF !important
+
+}
+
+*{
+    transition: all .8s
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden
+}
+
+.btn-main{
+    background: orange;
+    color: #111;
+    border: 2px solid #111;
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 8px 10px;
+    font-size: 15px;
+    margin-top: 20px;
+    text-transform: capitalize;
+}
+ .btn-main:hover{
+    opacity: 1;
+    background: none;
+    color: #111;
+    border: 2px solid #111
+}
+a{
+    text-decoration: none
+}
+a:hover{
+    text-decoration: none
+}
+h2{
+    font-size: 30px;
+    font-weight: bold
+}
+/*=============navbar======*/
+
+.search input{
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    margin-top: 50px;
+    padding: 8px;
+
+}
+
+
+
+
+
+/*navbar style*/
+
+#navbar{
+    background: #000;
+    height: 60px
+}
+#navbar a{
+    color: #fff
+}
+#navbar  a:hover{
+    color: #999
+}
+.solutions a:hover{
+    color: #fff !important
+}
+
+.btn-sign-1{
+    position: relative;
+    top: 20px;
+    height: 30px;
+    border-radius: 5px;
+    transition: .5s
+}
+.btn-sign-1 a{
+    margin-top: -11px
+}
+ 
+.btn-sign-1:hover{
+    background: #333 !important
+}
+.form-1{
+    position: relative;
+    left: 250px;
+    top: -35px
+}
+.navbar-brand{
+    position: relative;
+    top: 10px;
+    font-style: italic;
+    font-family: serif;
+}
+.navbar-brand:hover {
+    color: #fff !important
+}
+.form-1 input{
+    width: 400px !important
+}
+
+.form-1 button{
+    background: #eee
+}
+
+.dropdown-1{
+    position: relative!important;
+    left: -320px !important;
+    top: 10px !important;
+    }
+
+.menu-1{
+    background: #000 !important
+}
+.menu-1 a:hover{
+    background: #333 !important
+}
+/*navbar2*/
+
+.nav2{
+    height: 30px;
+    width: 100%;
+    background: #111;
+    margin-top: 60px;
+    position: absolute;
+    left: 0;
+    
+}
+.nav2 .container{
+    position: relative;
+    top: -10px
+}
+
+
+/*====================left-s;ider===============*/
+
+.left-slider{
+    margin-top: 50px !important;
+}
+
+.btn-slider{
+    position: fixed;
+    top: 0px;
+    left: 2px;
+    width: 50px;
+    color:  aliceblue;
+    z-index: 1 !important;
+    display: none
+}
+.btn-slider:hover{
+    background: #111 !important;
+    color: aliceblue !important
+}
+
+#mySidebar{
+    background: #111;
+    width: 300px !important
+}
+
+
+
+.ul-slide li a{
+    color: aliceblue;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.ul-slide i{
+    float: right;
+    margin-right: 10px;
+    color: aliceblue;
+    font-size: 50px;
+    position: relative;
+    top: -8px
+}
+
+.ul-slide li{
+    padding-left: 10px;
+    margin-bottom: 30px;
+    border-bottom: .1px solid #333;
+    padding-bottom: 20px
+
+
+}
+.ul-slide li:hover a{
+    color: orange 
+}
+.ul-slide li:hover i{
+    color: orange 
+}
+
+.solutions1{
+    padding-bottom: 0 !important;
+    margin-top:  -30px  !important;
+    font-size: 12px !important
+}
+/*=====================main section===============*/
+
+.section1{
+    margin-top: 0px;
+    height: 450px;
+    text-align: center;
+    background: url(../images/homepage.jpg) no-repeat center;
+    background-position: center 0px;
+    background-size: cover;
+    font-weight: bold;
+    color: #fff;
+  
+    position: relative
+}
+.section1 h1{
+    font-size: 50px
+}
+.section1 p{
+    font-size: 20px
+}
+.section1 .p2{
+    color: orange;
+}
+
+.btn-main1{
+    background: orange;
+    color: #fff;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 10px 40px;
+    font-size: 22px;
+    margin-top: 20px;
+    text-transform: capitalize;
+}
+ .btn-main1:hover{
+    opacity: 1;
+    background: none;
+    border: 2px solid #fff
+}
+
+
+.section1 .overly-bg{
+    
+    height: 100%;
+    padding-top: 150px;
+    background: rgba(0,0,0,.5)
+}
+
+.section1 .overly-bg div{
+    opacity: 1 !important;
+}
+
+
+.btn-scroll{
+    position: fixed;
+    right:15px;
+    bottom:10px;
+    background-color:#222;
+    color:white;
+    border:none;
+    transition: background 1s;
+    padding: 0 10px;
+    height: 40px;
+    border-radius: 5px;
+    z-index: 1;
+    font-size: 30px
+}
+.btn-scroll:hover{
+    background: #111
+}
+
+/*===================== section2 ===============*/
+.section2-bg{
+    padding-top: 50px;
+    background: #FAFAFA;
+    padding-bottom: 20px;
+}
+
+.section2 img{
+    height: auto;
+    width: 100%;
+  
+}
+
+
+.section2 i{
+    font-size: 50px
+}
+
+.section2 i:hover{
+   opacity: .8;
+    cursor: pointer
+}
+.section2 .row-img{
+    margin-bottom: 50px
+}
+
+.main-div-bg{
+    overflow: hidden;
+    height: 340px;
+    border-radius: 10px;
+}
+
+
+ .back-bg{
+    background: url(../images/homepage-devices.jpg) no-repeat center;
+    width: 100%;
+    height: 100%;
+    background-size:cover;
+    transition: all 1s;
+    border-radius: 10px;
+}
+/*backgrounds*/
+.bg8{
+    background: url(../images/8.jpeg) no-repeat center;
+    width: 100%;
+    height: 100%;
+    background-size:cover;
+    transition: all 1s;
+    border-radius: 10px;
+}
+.bg9{
+    background: url(../images/9.jpg) no-repeat center;
+    width: 100%;
+    height: 100%;
+    background-size:cover;
+    transition: all 1s;
+    border-radius: 10px;
+}
+.bg10{
+    background: url(../images/10.jpg) no-repeat center;
+    width: 100%;
+    height: 100%;
+    background-size:cover;
+    transition: all 1s;
+    border-radius: 10px;
+}
+.bg11{
+    background: url(../images/11.jpg) no-repeat center;
+    width: 100%;
+    height: 100%;
+    background-size:cover;
+    transition: all 1s;
+    border-radius: 10px;
+}
+.bg12{
+    background: url(../images/12.jpg) no-repeat center;
+    width: 100%;
+    height: 100%;
+    background-size:cover;
+    transition: all 1s;
+    border-radius: 10px;
+}
+.bg13{
+    background: url(../images/13.jpeg) no-repeat center;
+    width: 100%;
+    height: 100%;
+    background-size:cover;
+    transition: all 1s;
+    border-radius: 10px;
+}
+.bg14{
+    background: url(../images/14.jpg) no-repeat center;
+    width: 100%;
+    height: 100%;
+    background-size:cover;
+    transition: all 1s;
+    border-radius: 10px;
+}
+.bg15{
+    background: url(../images/15.jpg) no-repeat center;
+    width: 100%;
+    height: 100%;
+    background-size:cover;
+    transition: all 1s;
+    border-radius: 10px;
+}
+.bg16{
+    background: url(../images/16.jpg) no-repeat center;
+    background-size: cover;
+    height: 100%;
+    border-radius: 10px;
+    transition: all .7s
+}
+
+
+.main-div-bg:hover .back-bg{
+     transform: scale(1.2,1.2);
+    cursor: pointer
+}
+
+
+.main-div-bg .tx-bg{
+    background: rgba(0,0,0,.5);
+    height: 100%;
+    color: aliceblue;
+    text-align: center;
+    position: absolute;
+    top: 0px;
+    right: 15px;
+    left: 15px;
+    border-radius: 10px;
+}
+
+.main-div-bg .tx-bg .tx{
+    position: relative;
+    top: 30%;
+    font-weight: bold;
+}
+
+.main-div-bg:hover {
+    cursor: pointer
+}
+
+.section2-bg .col-md-4{
+    margin-bottom: 20px
+}
+
+.main-div-bg .tx-bg .tx h4{
+    font-size: 20px;
+    font-weight: bold
+}
+.main-div-bg1 .tx-bg .tx h4{
+    font-size: 20px;
+    font-weight: bold
+}
+.main-div-bg1 .tx-bg .tx{
+    font-weight: bold
+}
+
+.main-div-bg1{
+    overflow: hidden;
+    height: 160px;
+    border-radius: 10px;
+}
+
+.main-div-bg1:hover .back-bg{
+    transform: scale(1.2,1.2)
+}
+
+.main-div-bg .tx-bg .tx .overly-icon{
+    background:rgba(155,156,158,.7);
+    padding: 10px;
+    margin: auto;
+    display: inline;
+    width: 50%
+}
+
+.main-div-bg:hover .tx-bg .tx p{
+    display: none
+}
+
+
+.main-div-bg .tx-bg .tx .overly-icon{
+    display: none;
+    border-radius: 10px;
+}
+
+.main-div-bg:hover .tx-bg .tx .overly-icon{
+    display: block
+}
+
+.main-div-bg .tx-bg .tx .overly-icon{
+    color: aliceblue;
+    text-decoration: none
+}
+.main-div-bg .tx-bg .tx .overly-icon i{
+    margin-right: 10px;
+    border: 1px solid white;
+    padding: 6px 8px;
+    border-radius: 50%;
+    font-size: 15px
+}
+
+.main-div-bg1 .tx-bg{
+    background: rgba(0,0,0,.5);
+    height: 100%;
+    color: aliceblue;
+    text-align: center;
+    position: absolute;
+    top: 0px;
+    right: 15px;
+    left: 15px;
+    border-radius: 10px;
+}
+
+.main-div-bg1 .tx-bg .tx{
+    position: relative;
+    top: 20%
+}
+
+
+.main-div-bg1 .tx-bg .tx .overly-icon{
+    background:rgba(155,156,158,.7);
+    width: 50%;
+    padding: 10px;
+    margin: auto
+}
+
+.main-div-bg1:hover .tx-bg .tx p{
+    display: none
+}
+
+
+.main-div-bg1 .tx-bg .tx .overly-icon{
+    display: none;
+    border-radius: 10px;
+}
+
+.main-div-bg1:hover .tx-bg .tx .overly-icon{
+    display: block
+}
+
+.main-div-bg1 .tx-bg .tx .overly-icon a{
+    color: aliceblue;
+    text-decoration: none
+}
+.main-div-bg1 .tx-bg .tx .overly-icon i{
+    margin-right: 10px;
+    border: 1px solid white;
+    padding: 6px 8px;
+    border-radius: 50%;
+    font-size: 15px
+}
+
+
+.container-fluid {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+    width: 100%
+}
+
+/*========================Browse===================*/
+
+.browse{
+    margin-top: 50px;
+    background: #fff;
+} 
+
+.browse .ul ul{
+    margin-left: 280px
+}
+.browse .ul li{
+    float: left;
+    margin: auto;
+    padding-right: 25px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    
+}
+
+
+.browse .ul li a{
+    font-size: 20px;
+    color: #888;
+    padding-bottom: 5px;
+    font-weight: 600
+}
+
+.browse .ul li a:hover{
+   border-bottom: 3px solid #0173B1;
+    text-decoration: none;
+    color: #111
+}
+
+.browse img{
+    height: auto;
+    width: 100%
+}
+
+.browse button{
+    margin-top: 30px;
+    margin-right: 20px;
+    margin-left: 30px
+}
+.browse .btn2{
+    margin-left: 20px;
+    padding: 7px 40px;
+    background: none;
+    color: #333;
+    font-weight: bold
+}
+
+.browse .main{
+    height: 150px
+}
+.browse .bg4{
+    background: url(../images/4.png) no-repeat center;
+    background-size: cover;
+    height: 100%
+}.browse .bg5{
+    background: url(../images/5.jpg) no-repeat center;
+    background-size: cover;
+   height: 100%
+}.browse .bg6{
+    background: url(../images/6.jpg) no-repeat center;
+    background-size: cover;
+    height: 100%
+}.browse .bg7{
+    background: url(../images/7.jpg) no-repeat center;
+    background-size: cover;
+    height: 100%
+}
+.browse .col-md-3{
+    margin-bottom: 20px
+}
+.browse .overly{
+    background: rgba(0,0,0,.8);
+    text-align: center;
+    font-weight: bold;
+    display: none;
+    transition: background 5s !important;
+    height: 150px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 15px;
+    left: 15px
+}
+
+
+.browse .overly div{
+    position: relative;
+    top: 20%;
+    color: aliceblue
+}
+
+.browse .overly i{
+    border: 2.4px solid #fff;
+    padding: 15px 20px;
+    border-radius: 50%;
+    font-size: 30px;
+    margin-bottom: 10px
+}
+.browse .overly a{
+    color: aliceblue
+}
+.browse .main:hover .overly{
+    display: block;
+    cursor: pointer
+}
+
+.browse .h4{
+    border: 1px solid #eee;
+    padding: 10px;
+    margin-top: 0px;
+    background: #fafafa
+}
+
+.browse .h4 h4{
+    font-weight: 900
+}
+
+.browse .h4:hover{
+    cursor: pointer
+}
+
+.browse .h4 p{
+    font-size: 12px
+}
+
+/*=====================aricale (limitless)========*/
+
+.articale{
+    margin-top: 50px;
+    margin-bottom: 50px
+}
+
+.articale h4{
+    font-size: 25px;
+    line-height: 1.1;
+    margin-bottom: 30px;
+    color: #333
+}
+
+.articale p{
+    font-size: 25px;
+    margin-bottom: 30px;
+    color: #999
+}
+
+.articale img{
+    height: auto;
+    width: 100%
+}
+
+.articale button{
+    margin-bottom: 20px
+}
+/*========================== courses ==============================*/
+
+.courses{
+    background: #fafafa;
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    margin-top: 40px;
+    margin-bottom: -150px
+
+}
+
+.courses .main:hover{
+    cursor: pointer
+}
+.courses .col-md-3{
+     border-radius: 10px;
+     margin-bottom: 20px
+}
+.courses .main{
+    overflow: hidden;
+    border-radius: 10px;
+    padding: 0;
+    height: 160px;
+   
+}
+.courses .main:hover .bg{
+    transform: scale(1.3,1.3);
+     cursor: pointer
+}
+
+
+.courses .overly{
+    background: rgba(0,0,0,.4);
+    height: 100%;
+    color: aliceblue;
+     border-radius: 10px;
+    position: absolute;
+    top: 0;
+    right: 15px;
+    left: 15px;
+    bottom: 0
+}
+
+.courses .overly div{
+    position: relative;
+    top: 20%;
+    text-align: center;
+}
+.courses .overly div a{
+    color: aliceblue
+}
+.courses .overly div h4{
+    position: relative;
+    top: 25px;
+    transition: all .7s;
+    font-weight: bold
+}
+
+
+.courses .overly:hover div h4{
+    position: relative;
+    top: 0px;
+   
+}
+
+.courses .h2{
+    margin-bottom: 30px
+}
+.courses .overly div .p{
+     display: ;
+     position: relative;
+     opacity: 0;
+     top: -7px; transition: all .7s;
+     font-weight: bold
+
+}
+
+.courses .overly:hover div .p{
+    display: block;
+    position: relative;
+    top: 0px;
+    opacity: 1
+
+}
+
+.fadeUp{
+    animation-duration: 2s
+}
+/*========================== imaged ==============================*/
+
+.images{
+    background: #fafafa;
+    height: auto;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    margin-top: -50px
+    
+}
+.images .row{
+    margin-left: 12%
+}
+.images .row div{
+    margin: 30px
+}
+/*========================== slider ==============================*/
+
+.slider{
+    margin-top: 150px;
+    margin-bottom: 50px;
+    background: #fff
+}
+
+.item1{
+    background: url(../images/bg.jpg) no-repeat left;
+    height: 500px;
+    background-size: ;
+    width: 100%;
+    padding-top: 100px;
+    font-size: 40px;
+    font-weight: bold
+}
+.item2{
+    background: url(../images/man.jpg) no-repeat left;
+    height: 500px;
+    background-size: ;
+    width: 100%;
+    padding-top: 100px;
+    font-size: 40px;
+    font-weight: bold
+}
+.item3{
+    background: url(../images/woman.jpg) no-repeat left;
+    height: 500px;
+    background-size: ;
+    width: 100%;
+    padding-top: 100px;
+    font-size: 40px;
+    font-weight: bold
+}
+
+.slider h2{
+    font-size: 30px;
+    font-weight: bold
+}
+
+.slider h2 span{
+    font-size: 18px;
+    color: #777
+}
+.carousel-indicators li{
+    background: #999 !important;
+    padding: 5px;
+    border-color: #999
+}
+/*========================== Footer ==============================*/
+
+.footer{
+    background: #111;
+    padding-bottom: 50px;
+    padding-top: 30px
+}
+
+.footer ul li{
+    padding-bottom: 15px;
+}
+
+.footer ul h3{
+    color: #fff;
+    padding-bottom: 15px
+}
+
+.footer ul li a{
+    color: #999
+}
+
+.footer ul li a:hover{
+    color: #FFF
+}
+
+.footer .connect h3{
+    margin-bottom: -5px
+}
+
+
+
+.footer .connect li{
+    float: left;
+    background: #222;
+    width: 45px;
+    margin:5px 5px;
+    border-radius: 8px;
+    padding: 2px 11px 1px;
+    font-size: 30px;
+    cursor: pointer
+}
+.footer .connect li a i.fa-google-plus{
+   position: relative;
+    left: -6px
+}
+
+.footer .connect .facebook:hover{
+    background:  #3B5998
+}
+.footer .connect .twitter:hover{
+    background: #1DA1F2
+}
+.footer .connect .google:hover{
+    background:  #DB4437
+}
+.footer .connect .linkedin:hover{
+    background:  #0077B5
+}
+.footer .connect .pinterest:hover{
+    background:  #BD081C;
+    
+}
+
+
+.footer .connect li a{
+    color: aliceblue
+}
+
+
+
+.last-part{
+    background: #000;
+    padding: 40px 0px 0px 0px;
+    margin-bottom: -00px
+}
+
+.last-part li{
+    float: left;
+    margin-right: 30px;
+    color: aliceblue;
+    padding-bottom: 10px
+}
+
+.last-part li a{
+    color: aliceblue
+}
+.last-part ul {
+    position: relative;
+    top: -15px
+}
+/*========================== media ==============================*/
+
+
+
+
+/*===========media for  md screen==========*/
+@media screen and (max-width:1200px){
+     .main-div-bg .tx-bg .tx .overly-icon{
+        width: 60%
+    } 
+    .main-div-bg1 .tx-bg .tx .overly-icon{
+        width: 60%
+    }
+    .browse .ul ul{
+    margin-left: 170px
+}
+}
+
+@media only (max-width:1200px){
+    .btn-sign{
+        position:absolute;
+        top: 0px !important;
+        right: 50px
+    }
+    
+    .dropdown-1{
+        position:absolute;
+        top: 10px  !important;
+        left: 220px !important
+    }
+    .main-div-bg .tx-bg .tx .overly-icon{
+        width: 80% !important
+    }
+}
+
+/*===========media for tablet==========*/
+
+    @media screen and (max-width:991px){
+    .navbar-brand{
+        position: absolute;
+        left: 45%;
+        top: 0px
+    }
+    #icon-search{
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        background: none;
+        font-size: 25px;
+        color: #fff;
+        border: none
+    }
+    #navbar{
+        height: 50px
+    }
+   
+    .dropdown-1{
+    position: relative!important;
+    left: -0px !important;
+    top: 0px !important;
+    }
+   
+    .nav2{
+    height: auto;
+    width: 100%;
+    background: #000;
+    margin-top: 0px
+    }
+    .btn-sign-2{
+        display: none;
+        position: absolute;
+        left: 500px
+    }
+     .main-div-bg .tx-bg .tx .overly-icon{
+        width: 65%
+    }
+    .main-div-bg1 .tx-bg .tx .overly-icon{
+        width: 65%
+    }
+    .browse .ul ul{
+    margin-left: 130px
+   }
+    .section1 {
+        height: 500px
+    }
+    .btn-sec1{
+        position: relative;
+        right: 300px
+    }
+    .courses .overly div{
+        position: relative;
+        top: 10%
+    }
+    
+    .btn-slider{
+        display: block
+    }
+
+}
+
+
+
+
+
+/*===========media for mobile ==========*/
+
+@media screen and (max-width:800px){
+    .main-div-bg .tx-bg .tx .overly-icon{
+        width: 80%
+    }
+    .main-div-bg1 .tx-bg .tx .overly-icon{
+        width: 80%
+    }
+    .btn-sec1{
+        position: relative;
+        right: 250px
+    }
+}
+
+@media screen and (max-width:768px){
+    
+    .section2 .div2  {
+    height: auto
+ }
+
+.section2 .div1  {
+    height: auto;
+    border-radius: 10px
+ }
+     .main-div-bg{
+        height: 160px;
+    }
+    .main-div-bg .tx-bg .tx .overly-icon{
+        width: 30%
+    }
+    .main-div-bg1 .tx-bg .tx .overly-icon{
+        width: 30%
+    }
+    .slider h2{
+        background: #fff;
+        padding: 10px;
+        border-radius: 20px;
+        border: 2px solid;
+    }
+      .btn-sec1{
+            position: relative;
+            right: 0px
+        }
+    
+   .browse .ul ul{
+    margin-left: 30px;
+       padding-bottom: -20px
+   }
+    .browse .ul ul li{
+       line-height: .1  
+    }
+    .courses .overly div{
+    position: relative;
+    top: 30%;
+    text-align: center;
+ }
+    
+  
+    .images .row{
+        position: relative;
+        right: 20px
+    }
+
+    .navbar-brand{
+        position: absolute;
+        top: 0px;
+        left: 30%;
+    }
+}
+
+
+/*media 500px*/
+@media (max-width: 550px) {
+    .main-div-bg .tx-bg .tx .overly-icon{
+        width: 55%
+    }
+    .main-div-bg1 .tx-bg .tx .overly-icon{
+        width: 55%
+    }
+    .section1 .overly-bg{
+        padding-top: 70px
+    }
+    .section1{
+        height: 550px;
+        padding-top: -0px
+    }
+  
+    .articale button{
+        margin-bottom: 40px
+    }
+}
+@media (max-width: 350px) {
+    .main-div-bg .tx-bg .tx .overly-icon{
+        width: 70%
+    }
+    .main-div-bg1 .tx-bg .tx .overly-icon{
+        width: 70%
+    }
+    .images .row{
+    margin-left: -17%
+   }
+   
+    
+}
+
+
+
+
+/*media for navbar collpase*/
+@media (max-width: 991px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle{
+        display: block;
+        position: absolute;
+        left: 5px
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+        background: #000;
+        margin-left: 0px !important;
+        width: 30% !important;
+        margin-top: 50px;
+        position: absolute;
+        left: 0;
+        
+       
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+        display:block !important;
+         height: 1500px !important;
+          overflow: auto!important;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+

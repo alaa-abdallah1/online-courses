@@ -1,16 +1,16 @@
 # Online Courses
 
-<li>Live Site<//li> https://online-courses.netlify.app/
+<a href="https://alaa-abdallah1.github.io/online-courses" target="_blank">Live Demo</a>
 
 ## Getting Started 
-  To Get Starting you may 
+  To Get Started 
   * Clone it 
   * Download it
 
 ### Made of
 
 * Html
-* Css
+* CSS
 * Javascript
 * Bootstrap
 * JQuery
